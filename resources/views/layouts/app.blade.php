@@ -11,6 +11,8 @@
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <!-- Bootstrap 3.3.5 -->
         <link rel="stylesheet" href="{{ url('css/bootstrap.min.css') }}">
+        <!-- Bootstrap Switch 3.3.4 -->
+        <link rel="stylesheet" href="{{ url('css/bootstrap-switch.min.css') }}">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="{{ url('css/font-awesome.min.css') }}">
         <!-- Ionicons -->
@@ -86,6 +88,8 @@
         <script src="{{ url('js/plugins/jQueryUI/jquery-ui.min.js') }}"></script>
         <!-- Bootstrap 3.3.5 -->
         <script src="{{ url('js/bootstrap.min.js') }}"></script>
+        <!-- Bootstrap Switch 3.3.4 -->
+        <script src="{{ url('js/bootstrap-switch.min.js') }}"></script>
         @yield('pagejs')
         <!-- FastClick -->
         <script src="{{ url('js/plugins/fastclick/fastclick.js') }}"></script>
